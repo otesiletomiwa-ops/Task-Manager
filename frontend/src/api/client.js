@@ -27,6 +27,7 @@ function formatError(data) {
   if (Array.isArray(data.error)) {
     return data.error.map((issue) => issue.message).join(', ');
   }
+  if (typeof data === 'string') return data;
   return null;
 }
 
