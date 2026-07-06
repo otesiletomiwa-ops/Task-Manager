@@ -1,0 +1,19 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+task-manager-api/node_modules
+task-manager-frontend/node_modules
+
+# Environment variables
+task-manager-api/.env
+task-manager-frontend/.env*
+
+# Build outputs
+task-manager-frontend/dist
+task-manager-frontend/build
+
+# OS files
+.DS_Store
+Thumbs.db
